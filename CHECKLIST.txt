@@ -1,0 +1,10 @@
+CHECK BEFORE PUBLISHING
+[ ] Create GitHub repository and enable Pages
+[ ] Confirm showcase URL opens
+[ ] Confirm Tableau embedded dashboard OR direct link works
+[ ] Confirm Python example page interactive Plotly charts display
+[ ] Confirm Leaflet example has tiles and filters work
+[ ] Confirm WordPress does not strip the markup
+[ ] Confirm proposal, essay and three manuals download
+[ ] Verify screenshots and text are current; older Tableau screenshot might show prior 2018–2026 broad study; treat image as interface preview only
+[ ] No example dataset is described as actual research counts

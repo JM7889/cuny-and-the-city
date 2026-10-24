@@ -1,0 +1,16 @@
+CUNY AND THE CITY — ONE PAGE REPLACEMENT
+
+IMPORTANT: The package is BUILT, not published. Your existing Commons page has not been modified.
+
+1. Unzip the package, open index.html to review the one-page design. For the interactive Leaflet map and links, run a local web server for reliable behavior: open Command Prompt in the extracted folder and run: py -m http.server 8765. Then browse to http://localhost:8765/
+2. On GitHub, create a PUBLIC repository named exactly: cuny-and-the-city under account jmpetit8. Upload all files and folders INSIDE this package's site/ folder into the repository root (not the outer folder).
+3. GitHub > repository Settings > Pages > Build and deployment: Deploy from a branch, main, /(root), Save. Confirm the public address https://jmpetit8.github.io/cuny-and-the-city/ works and check every link.
+4. Go to https://jeanmarcpetit.commons.gc.cuny.edu/wp-admin/ and edit your existing one-page research page (or home page, if that is where you want the content). Back up the old blocks. Insert a Custom HTML block; open WORDPRESS_CUSTOM_HTML_BLOCK.html in Notepad, copy the HTML after the first comment line, paste, Preview. Only replace the existing content when satisfied.
+5. WordPress may filter iframes or style tags. If it removes the Tableau embed, leave the direct Tableau link and the snapshot card. If it removes the whole complex HTML block, use the simple Commons landing block in SIMPLE_WORDPRESS_FALLBACK.html instead. That block directs visitors to the complete hosted one-page site.
+6. Publish/update the Commons page. Open in an incognito browser and click Tableau, Python and Leaflet. If needed, refresh the cache.
+
+IMPORTANT ACCURACY AND PRIVACY
+- The Tableau embed uses the previously supplied published CUNY dashboard URL. The Tableau profile link points to /vizzes and the featured Tableau card opens the specific JeanMarc CUNY and the City workbook.
+- The Python and Leaflet examples use SYNTHETIC teaching data from the provided Superset ZIP. They are not verified NYC findings. Live six-year fetching and three-way numerical agreement were not fully validated.
+- Leaflet needs internet access for street map tiles. The Python Plotly script is embedded in the HTML, but its basemap also needs internet access.
+- No WordPress admin authentication is included; this kit does not change your live site automatically.
